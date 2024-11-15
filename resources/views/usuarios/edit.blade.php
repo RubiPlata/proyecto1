@@ -15,6 +15,12 @@
         </div>
         <br>
         <div>
+            <label for ="apellido" class="fprm-label">Apellido</label>
+            <input type="text" class="form-control" id="apellido" name="apellido" placeholder="nombre">
+        </div>
+        <br>
+        <br>
+        <div>
             <label for="email" class="form-label">Correo</label>
             <input type="email" class="form-control" id="email" name="email" placeholder="Correo" value="{{$user->email}}">
         </div>

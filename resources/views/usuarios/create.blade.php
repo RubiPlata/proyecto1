@@ -25,6 +25,11 @@
         </div>
         <br>
         <div>
+            <label for ="apellido" class="fprm-label">Apellido</label>
+            <input type="text" class="form-control" id="apellido" name="apellido" placeholder="nombre">
+        </div>
+        <br>
+        <div>
             <label for="email" class="form-label">Correo</label>
             <input type="email" class="form-control" id="email" name="email" placeholder="Correo">
         </div>
@@ -35,8 +40,8 @@
         </div>
         <br>
         <div>
-        <label for="role">Rol</label>
-        <select name="role" class="form-control" required>
+        <label for="rol">Rol</label>
+        <select name="rol" class="form-control" required>
             <option value="Usuario" >Usuario</option>
             <option value="Admin" >Admin</option>
         </select>
